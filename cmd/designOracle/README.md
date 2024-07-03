@@ -1,3 +1,5 @@
+![](oracle.png "")
+
 # Problem 3: Design oracle system
 
 # Design Oracle
