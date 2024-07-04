@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func protectedChickens(roof int, chickens []int) int {
 	maxprotect := 0
 	// Pop value decrese Loop
@@ -29,5 +31,9 @@ func protectedChickens(roof int, chickens []int) int {
 }
 
 func main() {
+	chickens := []int{2, 5, 10, 12, 15}
+	roof := 5
+	result := protectedChickens(roof, chickens)
+	fmt.Printf("roof %d chickens %v  ==> Output %d\n", roof, chickens, result)
 
 }
