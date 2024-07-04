@@ -109,8 +109,9 @@ All API requests require Header **Authorization**
 
  
  **Data High Availability**
-    -  **DataBase Replication**
-    -  **Redis Replication**
+ 
+ -  **DataBase Replication**
+ -  **Redis Replication**
 
  
 
